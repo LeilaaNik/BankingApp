@@ -34,4 +34,12 @@ public class Account {
     public double getBalance() {
         return balance;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "accountId='" + accountId + '\'' +
+                ", balance=" + balance +
+                '}';
+    }
 }
